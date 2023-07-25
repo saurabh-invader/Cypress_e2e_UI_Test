@@ -248,7 +248,7 @@ describe("our first suite", () => {
       .find("td")
       .then((tableColumn) => {
         cy.wrap(tableColumn).eq(2).should("contain", "Saurabh");
-        cy.wrap(tableColumn).eq(3).should("contain", "Singh");
+        cy.wrap(tableColumn).eq(3).should("contain", "Singh ");
       });
   });
 });
